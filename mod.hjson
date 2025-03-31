@@ -1,0 +1,8 @@
+name: "fmg"
+displayName: "fmg"
+author: coreworldy
+description: "asobi"
+version: "1.0"
+minGameVersion: "146"
+dependencies: [ ]
+hidden: false
