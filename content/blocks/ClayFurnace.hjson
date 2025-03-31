@@ -1,4 +1,4 @@
-type: block
+type: GenericCrafter
 hasItems: true
 hasLiquids: false
 hasPower: false
@@ -20,3 +20,9 @@ rotate: true
 requirements: [
   copper/60
 ]
+consumes: [
+  copper/1
+  coal/1
+]
+outputItem: CopperIngot
+craftTime: 80.0
