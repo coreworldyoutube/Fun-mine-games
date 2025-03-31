@@ -1,1 +1,22 @@
 type: block
+hasItems: true
+hasLiquids: false
+hasPower: false
+outputsLiquid: false
+consumesPower: false
+outputsPower: false
+connectedPower: false
+conductivePower: false
+itemCapacity: 250
+liquidCapacity: 0.0
+liquidPressure: 1.0
+outputFacing: true
+displayFlow: true
+inEditor: true
+health: 50
+mapColor: 000000ff
+size: 2
+rotate: true
+requirements: [
+  copper/60
+]
