@@ -20,12 +20,9 @@ rotate: true
 requirements: [
   copper/60
 ]
-consumes: 
-    items:{
-      [
+consumes: [
       copper/1
       coal/1
       ]
-}
 outputItem: CopperIngot/1
 craftTime: 80.0
