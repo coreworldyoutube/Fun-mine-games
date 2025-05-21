@@ -26,5 +26,6 @@ consumes:
       copper/1
       coal/1
       ]
+}
 outputItem: CopperIngot/1
 craftTime: 80.0
