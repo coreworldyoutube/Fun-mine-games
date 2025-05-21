@@ -21,7 +21,7 @@ requirements: [
   copper/60
 ]
 consumes: 
-    item:{
+    items:{
       [
       copper/1
       coal/1
