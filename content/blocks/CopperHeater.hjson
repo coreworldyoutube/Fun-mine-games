@@ -1,17 +1,16 @@
 type: HeatProducer
-name: CpperHeater
-displayName: CopperHeater
+name: copper-heater
+displayName: Copper Heater
 description: yay
 size: 2
 health: 100
 requirements: [
-  CopperIngot/60
+  copper-ingot/60
 ]
 hasItems: true
 hasLiquids: false
 consumesPower: false
 outputsPower: false
-
 craftTime: 120
 itemCapacity: 30
 consumes: [
@@ -20,3 +19,9 @@ consumes: [
 
 heatOutput: 15.0
 warmupRate: 0.2
+
+itemDuration: 120.0
+warmupSpeed: 0.05
+filterItem: coal
+
+displayFlow: true
