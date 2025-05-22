@@ -1,8 +1,8 @@
 type: gas
 name: steam
 displayName: Steam
-color: ffffffff  # 白っぽい透明感ある色
-temperature: 150.0  # 例えば蒸気の温度
+color: ffffffff
+temperature: 150.0
 viscosity: 0.1
 flammability: 0.0
 explosiveness: 0.0
