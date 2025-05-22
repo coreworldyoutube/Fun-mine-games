@@ -5,7 +5,7 @@ description: yay
 size: 2
 health: 100
 requirements: [
-  copper/60
+  CopperIngot/60
 ]
 hasItems: true
 hasLiquids: false
