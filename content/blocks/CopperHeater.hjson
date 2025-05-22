@@ -14,9 +14,7 @@ outputsPower: false
 
 craftTime: 120
 itemCapacity: 30
-consume: [
-  coal/1
-]
+consume: coal/1
 
 heatOutput: 15.0
 warmupRate: 0.2
