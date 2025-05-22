@@ -1,3 +1,4 @@
 type: Floor
 name: clay-floor
 description: Soft and sticky clay.
+variants: 4
