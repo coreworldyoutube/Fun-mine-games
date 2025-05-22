@@ -18,7 +18,7 @@ mapColor: 000000ff
 size: 2
 rotate: true
 requirements: [
-  copper/60
+  Clay/60
 ]
 consumes: {
   items: [
