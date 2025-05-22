@@ -1,1 +1,23 @@
-d
+type: HeatProducer
+name: my-heat-producer
+displayName: My Heat Producer
+description: Produces heat by consuming slag.
+size: 2
+health: 100
+requirements: [
+  copper/60
+  lead/40
+]
+hasItems: true
+hasLiquids: false
+consumesPower: false
+outputsPower: false
+
+craftTime: 120
+itemCapacity: 30
+consumes: [
+  slag/1
+]
+
+heatOutput: 15.0
+warmupRate: 0.2
