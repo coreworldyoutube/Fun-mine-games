@@ -14,7 +14,7 @@ outputsPower: false
 
 craftTime: 120
 itemCapacity: 30
-consumes: [
+consume: [
   coal/1
 ]
 
