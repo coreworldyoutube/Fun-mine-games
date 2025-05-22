@@ -1,0 +1,24 @@
+type: HeatCrafter
+name: steam-generator
+displayName: Steam Generator
+description: Converts water into steam using heat.
+size: 2
+health: 150
+requirements: [
+  CopperIngot/75
+  Clay/15
+]
+
+hasLiquids: true
+liquidCapacity: 60.0
+itemCapacity: 0
+hasItems: false
+
+inputLiquid: water/0.1
+outputLiquid: steam/0.1
+
+heatRequirement: 10.0
+overheatScale: 1.0
+maxEfficiency: 3.0
+warmupRate: 0.05
+craftTime: 30.0
