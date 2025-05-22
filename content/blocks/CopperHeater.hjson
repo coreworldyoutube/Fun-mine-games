@@ -1,12 +1,11 @@
 type: HeatProducer
-name: my-heat-producer
-displayName: My Heat Producer
-description: Produces heat by consuming slag.
+name: CpperHeater
+displayName: CopperHeater
+description: yay
 size: 2
 health: 100
 requirements: [
   copper/60
-  lead/40
 ]
 hasItems: true
 hasLiquids: false
