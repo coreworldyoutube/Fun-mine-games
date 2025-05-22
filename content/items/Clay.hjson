@@ -1,1 +1,15 @@
-s
+type: item
+color: 000000ff	
+explosiveness: 0.0
+flammability: 0.0
+radioactivity: 0.0	
+charge: 0.0
+hardness: 0
+cost: 1.0
+healthScaling: 0.0
+lowPriority: false
+frames: 0
+transitionFrame: 0
+frameTime: 5.0
+buildable: true
+hidden: false
