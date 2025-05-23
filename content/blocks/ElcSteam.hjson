@@ -6,8 +6,6 @@ size: 3
 health: 180
 requirements: [
   CopperIngot/80
-  Titanium/60
-  Graphite/40
 ]
 
 hasLiquids: true
