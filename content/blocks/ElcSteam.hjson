@@ -1,29 +1,23 @@
-type: Reactor
-name: steam-reactor
-displayName: Steam Reactor
+type: Generator
+name: steam-generator
+displayName: Steam Generator
 description: Generates power by consuming steam.
-size: 3
-health: 250
+size: 2
+health: 150
 requirements: [
-  CopperIngot/100
+  CopperIngot/75
 ]
 
 hasLiquids: true
-liquidCapacity: 100.0
+liquidCapacity: 50.0
 hasItems: false
 itemCapacity: 0
 
 consumes: {
   liquids: [
-    { liquid: "Steam", amount: 5 }
+    { liquid: "Steam", amount: 0.5 }
   ]
 }
 
-powerProduction: 15.0
-heatCapacity: 100.0
-heatTransfer: 0.5
-heatGeneration: 10.0
-
-explodeOnDestroyed: true
-explosionRadius: 3.0
-explosionDamage: 40.0
+powerProduction: 20.0
+craftTime: 60.0
