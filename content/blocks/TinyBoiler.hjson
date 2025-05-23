@@ -20,7 +20,7 @@ hasItems: false
   ]
 }
 outputLiquids: [
-  { liquid: steam, amount: 0.1 }
+  { liquid: Steam, amount: 0.1 }
 ]
 
 heatRequirement: 10.0
