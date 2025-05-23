@@ -6,8 +6,6 @@ size: 3
 health: 250
 requirements: [
   CopperIngot/100
-  graphite/50
-  titanium/30
 ]
 
 hasLiquids: true
@@ -15,17 +13,22 @@ liquidCapacity: 100.0
 hasItems: false
 itemCapacity: 0
 
-consumes: {
+consume: {
   liquids: [
-    { liquid: "Steam", amount: 5 }
+    { liquid: "Steam", amount: 0.1 }
   ]
 }
 
 powerProduction: 15.0
+outputsPower: true
+
 heatCapacity: 100.0
 heatTransfer: 0.5
 heatGeneration: 10.0
+warmupRate: 0.1
 
 explodeOnDestroyed: true
+explodeOnOverheat: true
 explosionRadius: 3.0
 explosionDamage: 40.0
+overheatDamage: 100.0
