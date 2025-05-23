@@ -19,7 +19,7 @@ hasItems: false
     { "liquid": "water", "amount": 0.1 }
   ]
 }
-outputLiquid: Steam/0.1
+outputLiquid: steam/0.1
 
 heatRequirement: 10.0
 overheatScale: 1.0
