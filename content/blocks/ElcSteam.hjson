@@ -1,34 +1,26 @@
-type: Reactor
-name: thorium-reactor
-displayName: Thorium Reactor
-description: Produces large amounts of power, but can explode violently.
+type: GenericCrafter
+name: steam-turbine
+displayName: Steam Turbine
+description: Uses steam to generate power.
 size: 3
-health: 350
+health: 180
 requirements: [
-  graphite/120
-  titanium/75
-  thorium/30
+  CopperIngot/80
+  Titanium/60
+  Graphite/40
 ]
 
-hasLiquids: false
-liquidCapacity: 0.0
-hasItems: true
-itemCapacity: 5
+hasLiquids: true
+liquidCapacity: 60
+itemCapacity: 0
+hasItems: false
 
 consumes: {
-  items: [
-    { item: "thorium", amount: 1 }
+  liquids: [
+    { liquid: "Steam", amount: 0.2 }
   ]
 }
 
-powerProduction: 200.0
-heatCapacity: 500.0
-heatTransfer: 0.3
-heatGeneration: 4.0
-
-explodeOnDestroyed: true
-explosionRadius: 10.0
-explosionDamage: 150.0
-
-displayHeat: true
-displayPower: true
+craftTime: 30
+powerProduction: 12.0
+updateEffect: steam
