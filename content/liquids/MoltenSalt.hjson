@@ -1,6 +1,6 @@
 type: liquid
 name: molten salt
-displayName: Steam
+displayName: salt water
 color: ffffffff
 temperature: 150.0
 viscosity: 0.1
