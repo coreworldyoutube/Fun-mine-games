@@ -5,9 +5,7 @@ description: Generates power by consuming steam.
 size: 3
 health: 250
 requirements: [
-  copper/100
-  graphite/50
-  titanium/30
+  CopperIngot/100
 ]
 
 hasLiquids: true
@@ -17,7 +15,7 @@ itemCapacity: 0
 
 consumes: {
   liquids: [
-    { liquid: "steam", amount: 5 }
+    { liquid: "Steam", amount: 5 }
   ]
 }
 
