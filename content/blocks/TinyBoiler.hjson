@@ -14,8 +14,11 @@ liquidCapacity: 60.0
 itemCapacity: 0
 hasItems: false
 
-consumes:
-  liquid: water/0.1
+"consumes": {
+  "liquids": [
+    { "liquid": "water", "amount": 0.1 }
+  ]
+}
 outputLiquid: Steam/0.1
 
 heatRequirement: 10.0
