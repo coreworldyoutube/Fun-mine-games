@@ -1,4 +1,4 @@
-type: Generator
+type: ConsumeGenerator
 name: steam-generator
 displayName: Steam Generator
 description: Generates power by consuming steam.
@@ -7,17 +7,16 @@ health: 150
 requirements: [
   CopperIngot/75
 ]
-
-hasLiquids: true
-liquidCapacity: 50.0
 hasItems: false
-itemCapacity: 0
-
+hasLiquids: true
+hasPower: true
+liquidCapacity: 50
+itemDuration: 60
+powerProduction: 20
+generateEffect: steam
 consumes: {
   liquids: [
-    { liquid: "Steam", amount: 0.5 }
+    Steam/0.5
   ]
 }
-
-powerProduction: 20.0
-craftTime: 60.0
+category: power
