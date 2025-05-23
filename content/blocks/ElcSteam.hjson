@@ -1,0 +1,31 @@
+type: Reactor
+name: steam-reactor
+displayName: Steam Reactor
+description: Consumes steam to generate power, with risk of small explosions.
+size: 3
+health: 250
+requirements: [
+  CopperIngot/100
+  Graphite/50
+  Titanium/30
+]
+
+hasLiquids: true
+liquidCapacity: 100.0
+hasItems: false
+itemCapacity: 0
+
+consume: {
+  liquids: [
+    { liquid: "Steam", amount: 5 }
+  ]
+}
+
+powerProduction: 15.0
+heatCapacity: 100.0
+heatTransfer: 0.5
+heatGeneration: 10.0
+
+explodeOnDestroyed: true
+explosionRadius: 3.0
+explosionDamage: 40.0
