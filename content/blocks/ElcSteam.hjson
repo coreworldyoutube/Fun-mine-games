@@ -15,7 +15,7 @@ liquidCapacity: 100.0
 hasItems: false
 itemCapacity: 0
 
-consumeLiquids: {
+consumes: {
   liquids: [
     { liquid: "Steam", amount: 5 }
   ]
