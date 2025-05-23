@@ -1,1 +1,9 @@
-t
+type: liquid
+name: molten salt
+displayName: Steam
+color: ffffffff
+temperature: 150.0
+viscosity: 0.1
+flammability: 0.0
+explosiveness: 0.0
+radioactivity: 0.0
