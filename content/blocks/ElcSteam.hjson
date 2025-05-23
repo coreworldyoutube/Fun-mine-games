@@ -1,24 +1,31 @@
-type: GenericCrafter
-name: steam-turbine
-displayName: Steam Turbine
-description: Uses steam to generate power.
+type: Reactor
+name: steam-reactor
+displayName: Steam Reactor
+description: Generates power by consuming steam.
 size: 3
-health: 180
+health: 250
 requirements: [
-  CopperIngot/80
+  copper/100
+  graphite/50
+  titanium/30
 ]
 
 hasLiquids: true
-liquidCapacity: 60
-itemCapacity: 0
+liquidCapacity: 100.0
 hasItems: false
+itemCapacity: 0
 
 consumes: {
   liquids: [
-    { liquid: "Steam", amount: 0.2 }
+    { liquid: "steam", amount: 5 }
   ]
 }
 
-craftTime: 30
-powerProduction: 12.0
-updateEffect: steam
+powerProduction: 15.0
+heatCapacity: 100.0
+heatTransfer: 0.5
+heatGeneration: 10.0
+
+explodeOnDestroyed: true
+explosionRadius: 3.0
+explosionDamage: 40.0
