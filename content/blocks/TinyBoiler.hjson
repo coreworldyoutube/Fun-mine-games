@@ -14,7 +14,8 @@ liquidCapacity: 60.0
 itemCapacity: 0
 hasItems: false
 
-inputLiquid: water/0.1
+consumes:
+  liquid: water/0.1
 outputLiquid: Steam/0.1
 
 heatRequirement: 10.0
