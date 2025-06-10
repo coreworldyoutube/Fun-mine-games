@@ -1,7 +1,7 @@
 type: Floor
 name: clay-floor
 description: Soft and sticky clay.
-variants: 4
+variants: 3
 speedMultiplier: 0.9
 itemDrop: Clay
 mapColor: a87c6f
