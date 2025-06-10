@@ -1,8 +1,9 @@
-type: gas
 name: steam
 displayName: Steam
 color: ffffffff
-temperature: 150.0
+gasColor: bfbfbfff
+gas: true
+temperature: 0.8
 viscosity: 0.0
 flammability: 0.0
 explosiveness: 0.0
