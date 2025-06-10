@@ -5,3 +5,4 @@ variants: 1
 speedMultiplier: 0.9
 itemDrop: clay
 mapColor: a87c6f
+env: terrestrial
