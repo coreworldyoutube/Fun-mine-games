@@ -1,7 +1,8 @@
-type: floor
-name: clay-floor
-description: Soft and sticky clay.
-variants: 3
-speedMultiplier: 0.9
-itemDrop: Clay
-mapColor: a87c6f
+{
+  "type": "floor",
+  "name": "clay-floor",
+  "description": "Soft, sticky ground rich in clay.",
+  "variants": 1,
+  "itemDrop": "clay",
+  "mapColor": "a87c6f"
+}
